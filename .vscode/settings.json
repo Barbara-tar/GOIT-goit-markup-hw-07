@@ -5,5 +5,7 @@
       "extensionName": ".min.css",
       "savePath": "~/../css"
     }
-  ]
+  ],
+    "liveSassCompile.setting.generateMap": true,
+"liveSassCompile.settings.autoprefix": [">1"]
 }
