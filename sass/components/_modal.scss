@@ -154,8 +154,8 @@
   &__form-regulations input[type="checkbox"]:checked + &__form-checkbox-svg {
     opacity: 1;
   }
-  &__form-checkbox-svg:hover,
-  &__form-checkbox-svg:focus {
+  &__close-button:hover,
+  &__close-button:focus {
     background-color: $highlightColor;
     fill: $whiteColor;
   }
