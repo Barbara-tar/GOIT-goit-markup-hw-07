@@ -30,4 +30,10 @@
     padding: 10px 41px;
     margin: 0 auto;
   }
+
+  &__button-close:hover,
+  &__button-close:focus {
+    background-color: $highlightColor;
+    fill: $whiteColor;
+  }
 }
