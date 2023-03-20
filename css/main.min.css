@@ -228,6 +228,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #fff;
+  fill: #fff;
   cursor: pointer;
   border-style: none;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
