@@ -448,8 +448,8 @@ body {
   display: block;
 }
 
-.modal_close-button:hover,
-.modal_close-button:focus {
+.modal__close-button:hover,
+.modal__close-button:focus {
   background-color: var(--higlight-color);
   fill: var(--white-color);
 }
