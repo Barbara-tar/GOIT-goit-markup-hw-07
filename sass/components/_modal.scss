@@ -151,14 +151,22 @@
 
   &__form-checkbox-svg {
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 15px;
-    transform: translateY(-50%);
+    transform: translateY(-10%);
     opacity: 0;
+    fill: none;
   }
 
   &__form-regulations input[type="checkbox"]:checked + &__form-checkbox-svg {
     opacity: 1;
+    position: absolute;
+  }
+
+  &__form-checkbox-svg:hover,
+  &__form-checkbox-svg:focus {
+    background-color: var(--higlight-color);
+    fill: var(--white-color);
   }
 
   &__form-regulations-link {
