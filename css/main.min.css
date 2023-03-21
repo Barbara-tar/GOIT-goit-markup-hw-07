@@ -409,6 +409,7 @@ body {
   padding: 10px 76px;
   margin: 20px auto 0;
   fill: #fff;
+  display: block;
 }
 .trumps {
   padding-bottom: 0;
