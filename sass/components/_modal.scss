@@ -165,8 +165,8 @@
 
   &__form-checkbox-svg:hover,
   &__form-checkbox-svg:focus {
-    background-color: var(--higlight-color);
-    fill: var(--white-color);
+    background-color: $highlightColor;
+    fill: $whiteColor;
   }
 
   &__form-regulations-link {
