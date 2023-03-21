@@ -177,6 +177,5 @@
     @extend %button;
     padding: 10px 76px;
     margin: 20px auto 0;
-    fill: $whiteColor;
-  }
-}
+    display: block; 
+  } 
